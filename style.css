@@ -1,0 +1,60 @@
+body{
+    margin: auto;
+    max-width: 1024px;
+    background-image: url(imagenes/fondo1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cabecera{
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.descripcion{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    font-size: 0.9em;
+    background-color: rgba(238, 231, 231, 0.349);
+    margin-bottom: 3px;
+    margin-top: auto;
+    align-items: 100%;
+    padding: 10px;
+    width: 100%;
+}
+
+h2{
+    font-size: 2em;
+}
+a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(235, 240, 235);
+    background-color: rgb(34, 233, 16);
+    text-decoration: none;
+    padding: 6px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgb(10, 57, 61, 57);
+    transition: all 1s ease-in-out;
+}
+
+a:hover {
+    box-shadow: 0 0 40px 1px rgb(162, 236, 162);
+    transition: all 0.3s ease-in-out;
+}
+
+.video {
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
